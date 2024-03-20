@@ -126,7 +126,23 @@ img {
   width:250px;
   height: 250px;
 }
+.diff img p{
+  float:left;
+}
+.diff img {
+  margin-left: 60px;
+}
 
+.diff img h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.diff img p {
+  margin-bottom: 80px;
+}
 /* 
 ---------------------------------------------
 global styles
