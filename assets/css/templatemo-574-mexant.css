@@ -1170,7 +1170,10 @@ section.testimonials .section-heading {
 .testimonials .owl-dots .active {
   background-color: #ff511a;
 }
-
+.card-body p,h3{
+  background-color: #212529;
+  color:orangered;
+}
 
 
 /* 
