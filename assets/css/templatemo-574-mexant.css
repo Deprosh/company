@@ -101,7 +101,13 @@ h1, h2, h3, h4, h5, h6 {
 .item h6{
   color:white;
 }
+.item h5{
+  color: white;
+}
 
+.item ol{
+  color:#ff511a;
+}
 ul {
   margin-bottom: 0px;
 }
