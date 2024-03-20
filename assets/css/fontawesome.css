@@ -28,11 +28,19 @@
   line-height: 1;
   text-rendering: auto; }
 
-  .home{
+  .home,h6,i{
     color:orangered;
     font-size: small;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
+  
+  
+  
+  .download{
+    margin:0px 0px 0px 980px;
+    color:orangered;
+  }
+
 .fa-1x {
   font-size: 1em; }
 
