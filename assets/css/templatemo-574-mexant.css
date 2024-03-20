@@ -106,9 +106,15 @@ ul {
 p {
   font-size: 15px;
   line-height: 26px;
-  color: #212741;
+  color: black;
+  text-align:justify-content;
 }
-
+.para p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #FF4301;
+  text-align:justify-content;
+}
 img {
   width: 100%;
   overflow: hidden;
@@ -1711,6 +1717,11 @@ body {
   section.map .info-item {
     margin-top: 30px;
   }
+}
+
+.col-lg-7 img{
+width: 50vh;
+height: 50vh;
 }
 
 @media (max-width: 767px) {
