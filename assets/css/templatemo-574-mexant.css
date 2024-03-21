@@ -44,6 +44,8 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+
+
 .readpara{
 text-align: justify;
 }
@@ -1464,6 +1466,25 @@ services page
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+.button a {
+  background-color:#008DDA;
+  border: none;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button a:hover {
+  background-color:black;
+  color:white;
+}
+
 
 section.service-details .naccs {
   position: relative;
