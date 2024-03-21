@@ -98,6 +98,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   color: #212741;
 }
+
+.core h2{
+text-align: center;
+}
+
 .item h6{
   color:white;
 }
