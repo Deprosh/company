@@ -133,6 +133,8 @@ img {
   width: 100%;
   overflow: hidden;
 }
+
+
 .diff img{
   width:250px;
   height: 250px;
@@ -1412,6 +1414,8 @@ services page
 
 .main-services  .left-image img {
   border-radius: 5px;
+  width:450px;
+  height:450px;
 }
 
 .main-services  .right-image {
