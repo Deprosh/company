@@ -44,6 +44,15 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.readpara{
+text-align: justify;
+}
+
+.readpara1{
+  text-align: justify;
+}
+
+
 .clearfix:after {
   content: ".";
   display: block;
