@@ -134,6 +134,10 @@ p {
   color: black;
   text-align:justify-content;
 }
+
+.contain .bispara{
+  text-align: justify;
+}
 .para p {
   font-size: 15px;
   line-height: 26px;
