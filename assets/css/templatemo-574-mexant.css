@@ -67,6 +67,9 @@ color:black;
   text-align: justify;
   
 }
+.softpara{
+  text-align:justify;
+}
 
 
 .clearfix:after {
