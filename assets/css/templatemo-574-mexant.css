@@ -63,6 +63,11 @@ color:black;
   color:black;
 }
 
+.minpara{
+  text-align: justify;
+  
+}
+
 
 .clearfix:after {
   content: ".";
