@@ -1513,7 +1513,7 @@ services page
 
 .button a {
   background-color:#DD7564;
-  border-radius: 50px;
+  border-radius: none;
   border: none;
   color:black;
   padding: 16px 32px;
