@@ -1453,6 +1453,17 @@ services page
   height:450px;
 }
 
+.left-image img{
+  transition: 1s ease;
+  }
+  
+  .left-image img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
 .main-services  .right-image {
   margin-left: 15px;
 }
@@ -1460,7 +1471,16 @@ services page
 .main-services  .right-image img {
   border-radius: 5px;
 }
-
+.right-image img {
+  transition: 1s ease;
+  }
+  
+  .right-image img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  }
 .main-services .right-text-content {
   margin-left: 15px;
 }
