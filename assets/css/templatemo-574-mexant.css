@@ -245,6 +245,7 @@ body {
  
  .green-button:hover {
   box-shadow: 7px 5px 56px -14px #FF8911;
+  color:black;
  }
  
  .green-button:active {
