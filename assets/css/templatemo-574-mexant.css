@@ -1492,7 +1492,8 @@ services page
 }
 
 .button a {
-  background-color:#008DDA;
+  background-color:pink;
+  border-radius: 50px;
   border: none;
   color:black;
   padding: 16px 32px;
@@ -1507,6 +1508,8 @@ services page
 .button a:hover {
   background-color:black;
   color:white;
+  letter-spacing: 3px;
+  box-shadow: rgb(248, 15, 159) 0px 7px 29px 0px;
 }
 
 
