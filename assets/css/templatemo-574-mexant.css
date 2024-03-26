@@ -228,14 +228,14 @@ body {
   }
 }
 
-.green-button {
+.green-button a {
+  color: #181d30;
   padding-left: 33px;
   padding-right: 33px;
   padding-bottom: 16px;
   padding-top: 16px;
-  border-radius: 9px;
+  border-radius: 5px;
   background: #FF8911;
-  color:black;
   border: none;
   font-family: inherit;
   text-align: center;
@@ -243,12 +243,11 @@ body {
   transition: 0.4s;
  }
  
- .green-button:hover {
+ .green-button a:hover {
   box-shadow: 7px 5px 56px -14px #FF8911;
-  color:black;
  }
  
- .green-button:active {
+ .green-button a:active {
   transform: scale(0.97);
   box-shadow: 7px 5px 56px -10px #FF8911;
  }
