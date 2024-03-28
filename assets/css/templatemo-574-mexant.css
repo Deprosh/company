@@ -43,10 +43,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
   border: 0;
   outline: 0;
 }
-.heading p,b{
-  font-size: large;
-  margin: 10px;
-  padding: 10px;
+.heading p{
+  margin: auto;
+  width: 800px; 
+  padding: 50px;
+  text-align: justify;
 }
 
 .bispara h4,p,ol{
