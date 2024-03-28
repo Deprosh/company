@@ -1583,6 +1583,28 @@ services page
   transition: 100ms;
 }
 
+.button1 a {
+  background-color:#12cff0ee;
+  border-radius: none;
+  border: none;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 a:hover {
+  background-color: rgb(24, 191, 220);
+  color:white;
+  letter-spacing: 3px;
+  box-shadow:  rgb(24, 191, 220);
+}
+
+
 
 
 section.service-details .naccs {
