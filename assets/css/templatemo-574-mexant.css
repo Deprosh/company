@@ -307,7 +307,7 @@ section {
 .section-heading h6 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #3FBCED;
   font-weight: 700;
 }
 
@@ -1032,7 +1032,7 @@ section.about-us .naccs .menu div {
 }
 
 section.about-us .naccs .menu div.active {
-  color: #ff511a;
+  color: #3FBCED;
 }
 
 section.about-us ul.nacc {
@@ -1074,7 +1074,7 @@ section.about-us ul.nacc li span.title {
 }
 
 section.about-us ul.nacc li span.item-title {
-  color: #43ba7f !important;
+  color: #3FBCED !important;
   font-weight: 600 !important;
 }
 
@@ -1164,7 +1164,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #3FBCED;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
