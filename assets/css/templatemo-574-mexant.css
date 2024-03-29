@@ -258,7 +258,8 @@ body {
   padding-bottom: 16px;
   padding-top: 16px;
   border-radius: 5px;
-  background: #FF8911;
+  background: #3FBCED;
+  ;
   border: none;
   font-family: inherit;
   text-align: center;
@@ -881,7 +882,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  color: #3FBCED;
 }
 
 .slide-inner .header-text .buttons {
