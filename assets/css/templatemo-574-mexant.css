@@ -258,7 +258,8 @@ body {
   padding-bottom: 16px;
   padding-top: 16px;
   border-radius: 5px;
-  background: #FF8911;
+  background: #3FBCED;
+  ;
   border: none;
   font-family: inherit;
   text-align: center;
@@ -306,7 +307,7 @@ section {
 .section-heading h6 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #3FBCED;
   font-weight: 700;
 }
 
@@ -425,7 +426,7 @@ header
 .header-area .main-nav .nav li:last-child a {
   font-size: 14px;
   color: #fff;
-  background-color: #43ba7f;
+  background-color: #3FBCED;
   padding: 10px 20px !important;
   display: inline-block;
   border-radius: 5px;
@@ -881,7 +882,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  color: #3FBCED;
 }
 
 .slide-inner .header-text .buttons {
@@ -1031,7 +1032,7 @@ section.about-us .naccs .menu div {
 }
 
 section.about-us .naccs .menu div.active {
-  color: #ff511a;
+  color: #3FBCED;
 }
 
 section.about-us ul.nacc {
@@ -1073,7 +1074,7 @@ section.about-us ul.nacc li span.title {
 }
 
 section.about-us ul.nacc li span.item-title {
-  color: #43ba7f !important;
+  color: #3FBCED !important;
   font-weight: 600 !important;
 }
 
@@ -1163,7 +1164,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #3FBCED;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
