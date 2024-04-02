@@ -337,33 +337,51 @@ https://templatemo.com/tm-574-mexant
   </section>
 
   <section class="simple-cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="miss">
-          <h4>Our Mission</h4>
-          <p>Our mission extends to nurturing innovation, fostering collaboration,
-             and navigating enterprises through the ever-evolving technological landscape. 
-             We measure our success by the tangible impact we facilitate in the lives of these companies.</p>
-        </div>
-        </div>
-
-        <div class="col-lg-7">
-          <h4>Our Vision</h4>
-          <p>We aspire to be the guiding light that propels them to
-             the forefront of innovation, reshaping industries and impacting societies positively. 
-             By fostering an ecosystem of resilience and creativity, we envisage a world where 
-             technological evolution knows no bounds.</p>
-          <div class="buttons">
-            <div class="green-button">
-              <!--<a href="#">Discover More</a>
-            </div>
-            <div class="orange-button">
-              <a href="#">Contact Us</a>
-            </div> -->
-          </div>
-        </div>
+    <div class="slideshow-container">
+      <div class="mySlides1">
+        <h4>Our Mission</h4>
+            <p>Our mission extends to nurturing innovation, fostering collaboration,<br>
+                       and navigating enterprises through the ever-evolving technological landscape. <br>
+                       We measure our success by the tangible impact we facilitate in the lives 
+                       of these companies</p>
       </div>
+    
+      <div class="mySlides1">
+        <h4>Our Vision</h4>
+                    <p>We aspire to be the guiding light that propels them to<br>
+                       the forefront of innovation, reshaping industries and impacting <br>
+                       societies positively.By fostering an ecosystem of resilience and <br>
+                       creativity, we envisage a world where 
+                       technological evolution knows no bounds.</p>
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    
+    
+    </div>
+    
+    <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
   </section>
 
   <section class="about-us" id="about">
