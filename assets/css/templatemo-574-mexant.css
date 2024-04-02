@@ -1564,7 +1564,7 @@ services page
 }
 
 .main-services  .left-image img {
-  border-radius: 5px;
+  border-radius: 10px;
   width:450px;
   height:450px;
 }
@@ -1582,10 +1582,12 @@ services page
 
 .main-services  .right-image {
   margin-left: 15px;
+  width: 450px;
+  height: 450px;
 }
 
 .main-services  .right-image img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .right-image img {
   transition: 1s ease;
