@@ -94,18 +94,24 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 
-.readpara{
+.readpara p,ol,li{
 text-align: justify;
-color:black;
+color:#454545;
+font-weight: normal;
+
+
 }
 
 .readpara1{
   text-align: justify;
-  color:black;
+  color:#212035;
+  font-weight: normal;
+  
 }
 .readpara2{
   text-align: justify;
-  color:black;
+  font-weight: normal;
+  
 }
 
 .minpara{
